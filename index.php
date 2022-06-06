@@ -57,9 +57,20 @@ $movies =[
          $movies = new Movie($value['title'],$value['direction'],$value['duration'],$value['year'],);
         // var_dump($movies);
     ?>
-    <h2>titolo film:
+    <h2>Titolo film:
         <?php echo $movies->getTitle(); ?>
     </h2>
+    <p>Regia:
+        <?php echo $movies->getDirection(); ?>
+    </p>
+    <p>Durata:
+        <?php echo $movies->getDuration(); ?>
+    </p>
+    <p>Anno:
+        <?php echo $movies->getYear(); ?>
+    </p>
+
+
     
 
     

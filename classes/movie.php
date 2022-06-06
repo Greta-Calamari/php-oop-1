@@ -22,7 +22,7 @@ class Movie{
     public function getDuration(){
         return $this->duration;
     }
-    public function getPrice(){
+    public function getYear(){
         return $this->year;
     }
         
