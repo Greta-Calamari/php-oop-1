@@ -6,7 +6,7 @@
 
 <?php 
 
-require_once __DIR__.'/classes/movies.php';
+require_once __DIR__.'/classes/movie.php';
 
-
+$movies
 ?>
