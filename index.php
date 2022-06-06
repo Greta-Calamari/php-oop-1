@@ -8,5 +8,36 @@
 
 require_once __DIR__.'/classes/movie.php';
 
+$movies =[
+    [
+        'title' =>'Jurassic Park',
+        'direction'=> 'Steven Spielberg',
+        'duration'=>'2h 7m',
+        'year'=>'1993'
+
+    ],
+    [
+        'title' =>'Top Gun',
+        'direction'=> 'Tony Scott',
+        'duration'=>'1h 50m',
+        'year'=>'1986'
+
+    ],
+    [
+        'title' =>'It',
+        'direction'=> 'Andrés Muschietti',
+        'duration'=>'2h 15m',
+        'year'=>'2017'
+
+    ],
+    [
+        'title' =>'Harry Potter e la pietra filosofale',
+        'direction'=> 'Chris Columbus',
+        'duration'=>'2h 32m',
+        'year'=>'2001'
+
+    ],
+]
+
 
 ?>
