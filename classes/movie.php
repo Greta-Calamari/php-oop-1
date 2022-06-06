@@ -12,6 +12,25 @@ class Movie{
         $this->year = $_year;
 
     }
+    public function getTitle(){
+        return $this->title;
+    }
+    public function getDirection(){
+        return $this->direction;
+    }
+
+    public function getDuration(){
+        return $this->duration;
+    }
+    public function getPrice(){
+        return $this->year;
+    }
+        
+
+
+
+
+
 
 }
 
