@@ -53,10 +53,14 @@ $movies =[
 <body>
     <h1>Lista Film:</h1>
     <?php
-    foreach ($film as $key => $value) {
-         $film = new Movie($value['title']);
-        
+    foreach ($movies as $key => $value) {
+         $movies = new Movie($value['title'],$value['direction'],$value['duration'],$value['year'],);
+        // var_dump($movies);
     ?>
+    <h2>titolo film:
+        <?php echo $movies->getTitle(); ?>
+    </h2>
+    
 
     
 
